@@ -6,7 +6,7 @@ import { COURSES, LESSONS, findLessonsForCourse } from './../../../../server/db-
 import { Course } from '../model/course';
 import { HttpErrorResponse, HttpRequest } from '@angular/common/http';
 
-fdescribe('CoursesService', () => {
+xdescribe('CoursesService', () => {
 
   // Store the provider and an instance of the HttpTestingController (httpMock) in variables so we can have access to them in each test
   let coursesService: CoursesService;
